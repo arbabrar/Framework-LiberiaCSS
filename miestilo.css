@@ -1,0 +1,71 @@
+/* EStilos Bootstrap */
+body{
+	background-color: #F2F2F2;
+}
+section{
+	background-color:#BDBDBD;
+}
+.encabezado-musica{
+	background-color:white;
+	border:solid 1px #084B8A;
+}
+.img-social{
+	height: 40px;
+	margin-bottom: 5px;
+}
+.logo-img{
+	margin-left: 30%;
+	margin-right: auto; 
+}
+.redes-sociales{
+	margin-left: 20%;
+	margin-right: auto;
+}
+.img-agrupacion{
+	width: 80%;
+	padding: 6px;
+	margin-top: 22px;
+	margin-left: 10%;
+	margin-right: auto;
+}
+.comentario{
+	width: 88%;
+	height: 28px;
+	padding: 10px;
+	color: white;
+	border-radius: 4px;
+	margin-top: 5px;
+	border:none;
+	display:inline-block;
+}
+.width-icon{
+	width: 8%;
+	}
+.opcion-lateral{
+	background-color: #424242;
+	padding: 5px;
+	margin-top: 10px;
+	color: white;
+	padding-top: 25px;
+}	
+.buscador{
+	border-radius: 20px;
+	}
+.texto-busqueda{
+	margin-left: 5px;
+}
+
+@media (min-width: 700px) and (orientation: landscape){
+	.img-social{
+		margin-top: 10rem;
+	}
+	.logo-img{
+	float: left;
+	margin: 0.5vw;
+	width:20%;
+	}
+	.redes-sociales{
+	margin-left: 10%;
+	margin-right: auto;
+	}
+}

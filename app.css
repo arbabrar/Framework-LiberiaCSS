@@ -1,0 +1,130 @@
+body{
+	background-image: url(../../imagenes/gastro.jpg);
+    background-color: #cccccc;
+}
+[class^="block-"], [class*=" block-"] {
+	border-radius: 10px;
+	border:solid 1px white;
+	text-align: justify;
+	margin-top: 10px;
+}
+.contenedor{
+	background: rgba(0, 0, 0, 0.9);
+	min-height: 50rem;
+	width: 100%;
+	color: white;
+}
+.input-buscar{
+	border-radius: 10px;
+	padding: 5px;
+	margin-left: 10%;
+	margin-right: auto;
+	margin-top: 3em;
+	width: 80%;
+}
+.menu{
+	background-color: #FFBF00;
+	border-radius: 10px;
+	}
+li {
+	border-bottom: solid 1px;
+}
+a{
+	color: white;
+}
+.category{
+	font-size: 1vw;
+	font-style:oblique;
+	margin: 0;
+}
+.price{
+	font-size: 0.8vw;
+	font-style: italic;
+	margin: 0; 
+}
+.img-comida{
+	margin left: 5%;
+	margin-right: auto;
+	width: 80%;
+	}
+.title-text{
+	background-color: #F5ECCE;
+	color: black;
+	}
+.historial{
+	margin: 10px;
+}
+.block-content{
+	width: 98%;
+	background: rgba(252,234,187,0.8);
+	}
+.block-izquierdo{
+	background: rgba(249,197,160,0.8);
+	margin-left: 0;
+	height: 50em;
+	}
+.nombre-plato{
+	margin: 10px;
+	color: black;
+	text-shadow: 1px 1px 2px white;
+}
+.img-central{
+	width: 80%;
+	margin-left: 10%;
+}
+.preparacion{
+	padding: 15px;
+	color: black;
+	font-style: oblique;
+	font-weight: bold;
+}
+.coment{
+	display: inline-flex;
+	font-size: 4em;
+
+}
+.input-textarea{
+	display: inline-block;
+	width: 80%;
+}
+@font-face {
+  font-family: "icomoon";
+  src:  url("../fonts/icomoon/icomoon.eot?94c3nl");
+  src:  url("../fonts/icomoon/icomoon.eot?94c3nl#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon/icomoon.ttf?94c3nl") format("truetype"),
+    url("../fonts/icomoon/icomoon.woff?94c3nl") format("woff"),
+    url("../fonts/icomoon/icomoon.svg?94c3nl#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-67:before {
+  content: "\e900";
+}
+.icon-home:before {
+  content: "\e901";
+}
+.icon-icons_new:before {
+  content: "\e902";
+}
+.icon-97:before {
+  content: "\e903";
+}
+.icon-user:before {
+  content: "\e971";
+}

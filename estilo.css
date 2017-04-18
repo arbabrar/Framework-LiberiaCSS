@@ -1,0 +1,50 @@
+body{
+	background-image: url(../../imagenes/turismo.jpg);
+}
+.container{
+	background-color: rgba(82, 131, 186, 0.8);
+	
+}
+.slogan{
+	padding-left:1em;
+	margin-left: 2em;
+	font-family: 'Anton', sans-serif;
+	margin-top: 2em;
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v21/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+}
+.red-spcial{
+	width: 60%;
+	margin-left: 0.5em;
+	border:solid 2px black;
+}
+.central-imagen{
+	height: 95%;
+	max-height: 45rem;
+}
+a:hover {
+    background-color: white;
+}
+.padding-text{
+	padding: 1vw;
+}
